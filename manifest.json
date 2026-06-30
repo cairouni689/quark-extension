@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Quark",
+  "version": "1.0",
+  "description": "مساعدك الذكي اللي بيفهم أي صفحة ويب، بيلخصها، وبيشرح الأكواد.",
+  "permissions": [
+    "sidePanel",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "افتح Quark"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
